@@ -1,0 +1,43 @@
+# Contributing to Jamal Universe
+
+Thanks for your interest in contributing! Here's how to help.
+
+## 🐛 Reporting Bugs
+
+Open an [Issue](../../issues/new) and include:
+- **Console output** (screenshot or copy-paste of the DevTools console)
+- **Discord client** — Desktop / Web / Vesktop
+- **Steps to reproduce**
+- **Script version** (shown in the panel header, e.g. `v3.9`)
+
+## 💡 Suggesting Features
+
+Open an [Issue](../../issues/new) tagged `enhancement` describing:
+- What problem it solves
+- How you imagine it working
+
+## 🔧 Pull Requests
+
+1. Fork the repo
+2. Create a branch: `git checkout -b feature/my-feature`
+3. Make your changes to the `.js` file
+4. Test in an actual Discord console before submitting
+5. Open a PR with a clear description of what changed and why
+
+## 🧪 Testing Checklist
+
+Before submitting a PR, verify:
+- [ ] Script loads without console errors
+- [ ] Quest picker shows available quests correctly
+- [ ] VIDEO quests progress and complete
+- [ ] GAME quests progress and complete (Discord Desktop only)
+- [ ] Pause → resume doesn't lose progress
+- [ ] History panel opens/closes without breaking the quest view
+- [ ] ✕ Close button fully tears down the UI
+
+## 📜 Code Style
+
+- No external dependencies — must run standalone in a browser console
+- Keep DOM manipulation vanilla JS (no frameworks)
+- Comment any Discord webpack module patching clearly
+- Test against the latest Discord Desktop build before submitting
