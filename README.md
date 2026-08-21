@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Jamal_Universe-Discord_Quest_Completer-gold?style=for-the-badge&logo=discord&logoColor=white&labelColor=0d0d0d&color=ffd700" alt="Jamal Universe"/>
 
-<h1>✨ Jamal Universe</h1>
+<h1>Jamal Universe</h1>
 <h3>Discord Quest Completer — Automate all your Discord Quests instantly</h3>
 
 <p>
